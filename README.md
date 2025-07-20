@@ -27,6 +27,8 @@ Minimal yet powerful configuration for [Hyprland](https://github.com/hyprwm/Hypr
    cp -r ~.config/hypr-dots/config/wofi ~/.config/wofi
    ```
 
-   ##Screenshots
+# Screenshots
    <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/9773eb5b-2644-42dc-a13b-f68976b5b7d5" />
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/fe1dd667-b77f-49a8-b712-8b8fed79a918" />
 
