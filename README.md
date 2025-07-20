@@ -1,5 +1,11 @@
-# hypr-dots
+# Hyprland Dotfiles
 
-## A simple hyprland setup
+Minimal yet powerful configuration for [Hyprland](https://github.com/hyprwm/Hyprland) on Wayland. This setup aims for a simple aesthetic, and an efficient workflow tailored to my taste.
 
-This is the setup I use on a daily basis. It appears visually pleasing with many wallpapers, and should be easy to use.
+## Getting Started
+
+1. Clone the repo
+'''bash
+git clone https://github.com/Shockfront99/hypr-dots/ ~/.config/hypr-dots
+2. Copy the files
+   cp -r hypr-dots/config/hypr ~/.config/hypr
