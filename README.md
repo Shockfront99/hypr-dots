@@ -4,10 +4,18 @@ Minimal yet powerful configuration for [Hyprland](https://github.com/hyprwm/Hypr
 
 ## Getting Started
 
-1. Clone the repo
+1. Install dependencies
+   ```bash
+   sudo pacman -S hyprland wofi waybar hyprlock hyprpaper kitty nautilus starship neovim neofetch
+   yay -S wlogout
+   ```
+   You can use any AUR helper of your choice
+   
+2. Clone the repo
    ```bash
    git clone https://github.com/Shockfront99/hypr-dots/ ~/.config/hypr-dots
    ```
+   
 3. Copy the files
    ```bash
    cp -r ~.config/hypr-dots/config/hypr ~/.config/hypr
