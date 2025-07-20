@@ -9,4 +9,12 @@ Minimal yet powerful configuration for [Hyprland](https://github.com/hyprwm/Hypr
    git clone https://github.com/Shockfront99/hypr-dots/ ~/.config/hypr-dots
    ```
 3. Copy the files
-   cp -r hypr-dots/config/hypr ~/.config/hypr
+   ```bash
+   cp -r ~.config/hypr-dots/config/hypr ~/.config/hypr
+   cp -r ~.config/hypr-dots/config/kitty ~/.config/kitty
+   cp -r ~.config/hypr-dots/config/neofetch ~/.config/neofetch
+   cp -r ~.config/hypr-dots/config/nvim ~/.config/nvim
+   cp -r ~.config/hypr-dots/config/waybar ~/.config/waybar
+   cp -r ~.config/hypr-dots/config/wlogout ~/.config/wlogout
+   cp -r ~.config/hypr-dots/config/wofi ~/.config/wofi
+   ```
