@@ -5,7 +5,7 @@ Minimal yet powerful configuration for [Hyprland](https://github.com/hyprwm/Hypr
 ## Getting Started
 
 1. Clone the repo
-'''bash
+   ```bash
 git clone https://github.com/Shockfront99/hypr-dots/ ~/.config/hypr-dots'''
-2. Copy the files
+3. Copy the files
    cp -r hypr-dots/config/hypr ~/.config/hypr
