@@ -1,0 +1,8 @@
+format = "$directory$git_branch$line_break$character"
+[directory]
+format = "(bg:#212223 fg#212223)[](bg:transparent fg:#212223)[󰣇 ](bg:#212223 fg:#2596be)[](bg:#212223 fg:#2596be)[ ](bg:#2596be fg:#FFFFFF)[(bg:#2596be fg:#FFFFFF)$path](bg:#2596be fg:#FFFFFF)[](bg:transparent fg:#2596be)"
+style = "bg:#000000 fg:#454acc"
+[git_branch]
+format = "[ ](bg:transparent fg:transparent)[on ](bg:transparent fg:default)[ $branch](bg:transparent fg:purple)"
+[character]
+format = "[❯ ](bg:transparent fg:#cd27ee)"
