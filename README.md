@@ -1,6 +1,6 @@
 # Hyprland Dotfiles
 
-Minimal yet powerful configuration for [Hyprland](https://github.com/hyprwm/Hyprland) on Wayland. This setup aims for a simple aesthetic, and an efficient workflow tailored to my taste.
+Minimal yet powerful configuration for [Hyprland](https://github.com/hyprwm/Hyprland) on Wayland. This setup aims for a simple aesthetic and an efficient workflow.
 
 ## Getting Started
 
