@@ -15,8 +15,10 @@ Minimal yet powerful configuration for [Hyprland](https://github.com/hyprwm/Hypr
    ```bash
    git clone https://github.com/Shockfront99/hypr-dots/ ~/.config/hypr-dots
    ```
-   
-3. Copy the files
+3. Backup your existing configuration files
+   ```bash
+   cp -r ~/.config ~/config.backup  
+4. Copy the files
    ```bash
    cp -r ~/.config/hypr-dots/config/hypr ~/.config/
    cp -r ~/.config/hypr-dots/config/kitty ~/.config/
