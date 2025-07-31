@@ -32,6 +32,8 @@ Minimal yet powerful configuration for [Hyprland](https://github.com/hyprwm/Hypr
 ## Screenshots
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/d33d325f-2d3d-4916-9529-e43bffb37a82" />
 
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/96245c6a-d14d-40d5-bfe4-6aafcd0ad22e" />
+
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/94971513-965f-4275-a16b-be79069ff130" />
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/cccc56d6-d446-4ffc-b66f-2e1e5fbaea8e" />
