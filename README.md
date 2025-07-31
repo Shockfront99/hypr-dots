@@ -29,4 +29,5 @@ Minimal yet powerful configuration for [Hyprland](https://github.com/hyprwm/Hypr
    cp -r ~/.config/hypr-dots/config/starship.toml ~/.config/
    ```
 
-
+## Screenshots
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/d33d325f-2d3d-4916-9529-e43bffb37a82" />
