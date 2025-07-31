@@ -26,6 +26,7 @@ Minimal yet powerful configuration for [Hyprland](https://github.com/hyprwm/Hypr
    cp -r ~/.config/hypr-dots/config/wlogout ~/.config/
    cp -r ~/.config/hypr-dots/config/wofi ~/.config/
    cp -r ~/.config/hypr-dots/config/xdg-desktop-portal ~/.config/
+   cp -r ~/.config/hypr-dots/config/starship.toml ~/.config/
    ```
 
 # Screenshots
