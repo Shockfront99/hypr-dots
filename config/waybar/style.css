@@ -54,6 +54,8 @@ button:hover {
     background-color: rgba(15, 15, 15, 1);
     font-size: 20px;
     border-radius: 15px;
+    margin-left: 12px;
+    padding: 2px 2px 2px 2px;
 }
 #workspaces button {
     background-color: rgba(15, 15, 15, 1);
@@ -64,9 +66,12 @@ button:hover {
 
 #workspaces button.active {
     color: rgb(255, 255, 255);
-    background-color: rgba(15, 15, 15, 1);
+    background-color: #2596be;
     border-radius: 15px;
-    
+    padding: 0px 24px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(15, 15, 15, 1);
 }
 #workspaces button.focused {
     background-color: #64727D;
@@ -120,16 +125,16 @@ button:hover {
 }
 /*-----module groups----*/
 .modules-right {
-    background-color: rgba(15, 15, 15, 0.0);
+    background-color: transparent;
     border-radius: 15px;
 }
 .modules-center {
-    background-color: rgba(15, 15, 15, 0.0);
+    background-color: transparent;
     border-radius: 15px;
 }
 .modules-left {
  /*  padding-left: 5px;*/
-   background-color: rgba(15, 15, 15, 0.0);
+   background-color: transparent;
    border-radius: 15px;
 
 }
