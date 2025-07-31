@@ -18,14 +18,14 @@ Minimal yet powerful configuration for [Hyprland](https://github.com/hyprwm/Hypr
    
 3. Copy the files
    ```bash
-   cp -r ~.config/hypr-dots/config/hypr ~/.config/hypr
-   cp -r ~.config/hypr-dots/config/kitty ~/.config/kitty
-   cp -r ~.config/hypr-dots/config/neofetch ~/.config/neofetch
-   cp -r ~.config/hypr-dots/config/nvim ~/.config/nvim
-   cp -r ~.config/hypr-dots/config/waybar ~/.config/waybar
-   cp -r ~.config/hypr-dots/config/wlogout ~/.config/wlogout
-   cp -r ~.config/hypr-dots/config/wofi ~/.config/wofi
-   cp -r ~.config/hypr-dots/config/xdg-desktop-portal ~/.config/xdg-desktop-portal
+   cp -r ~/.config/hypr-dots/config/hypr ~/.config/
+   cp -r ~/.config/hypr-dots/config/kitty ~/.config/
+   cp -r ~/.config/hypr-dots/config/neofetch ~/.config/
+   cp -r ~/.config/hypr-dots/config/nvim ~/.config/
+   cp -r ~/.config/hypr-dots/config/waybar ~/.config/
+   cp -r ~/.config/hypr-dots/config/wlogout ~/.config/
+   cp -r ~/.config/hypr-dots/config/wofi ~/.config/
+   cp -r ~/.config/hypr-dots/config/xdg-desktop-portal ~/.config/
    ```
 
 # Screenshots
