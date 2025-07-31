@@ -393,7 +393,7 @@ label:focus {
 #custom-power {
     color: #2596be;
     font-size: 15px;
-    background-color: black;
+    background-color: rgba(15, 15, 15, 1);
     border-radius: 15px;
     padding-right: 5px;
 }
