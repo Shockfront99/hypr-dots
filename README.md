@@ -31,6 +31,19 @@ Minimal yet powerful configuration for [Hyprland](https://github.com/hyprwm/Hypr
    cp -r ~/.config/hypr-dots/config/starship.toml ~/.config/
    ```
 5. Install [Lualine](https://github.com/nvim-lualine/lualine.nvim) and [Tokyonight](https://github.com/folke/tokyonight.nvim).
+6. Configure your shell to use starfish
+   Add this to the end of ~/.bashrc:
+   ```bash
+   eval "$(starship init bash)"
+   ```
+   Add this to the end of ~/.config/fish/config.fish:
+   ```bash
+   starship init fish | source
+   ```
+   Add this to the end of .zshrc:
+   ```bash
+   eval "$(starship init zsh)"
+   ```
 
 ## Screenshots
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/d33d325f-2d3d-4916-9529-e43bffb37a82" />
