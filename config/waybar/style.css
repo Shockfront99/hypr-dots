@@ -52,7 +52,6 @@ button:hover {
 /* you can set a style on hover for any module like this */
 #workspaces {
     background-color: rgba(15, 15, 15, 1);
-    font-size: 20px;
     border-radius: 15px;
     margin-left: 12px;
     padding: 4px 4px 4px 4px;
