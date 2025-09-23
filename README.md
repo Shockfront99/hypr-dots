@@ -6,7 +6,7 @@ Minimal yet powerful configuration for [Hyprland](https://github.com/hyprwm/Hypr
 
 1. Install dependencies
    ```bash
-   sudo pacman -S hyprland wofi waybar hyprlock hyprpaper hypridle kitty nautilus pavucontrol starship neovim neofetch wireplumber power-profiles-daemon
+   sudo pacman -S hyprland wofi waybar hyprlock hyprpaper hypridle kitty thunar pavucontrol starship neovim neofetch wireplumber power-profiles-daemon
    yay -S wlogout
    ```
    You can use any AUR helper of your choice
