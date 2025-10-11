@@ -6,7 +6,7 @@ Minimal yet powerful configuration for [Hyprland](https://github.com/hyprwm/Hypr
 
 1. Install dependencies
    ```bash
-   sudo pacman -S hyprland wofi waybar hyprlock hyprpaper hypridle kitty thunar pavucontrol starship neovim neofetch wireplumber power-profiles-daemon
+   sudo pacman -S hyprland wofi waybar hyprlock hyprpaper hypridle kitty thunar pavucontrol starship neovim neofetch wireplumber power-profiles-daemon nwg-look gnome-themes-extra
    yay -S wlogout
    ```
    You can use any AUR helper of your choice
@@ -44,10 +44,14 @@ Minimal yet powerful configuration for [Hyprland](https://github.com/hyprwm/Hypr
    ```bash
    eval "$(starship init zsh)"
    ```
+7. Set your GTK theme to Adwaita-dark
+<img width="1367" height="769" alt="image" src="https://github.com/user-attachments/assets/a903045b-8be7-4c6f-b297-6462791a1523" />
+
 
 ## Screenshots
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/f3a23670-8f2b-423b-aaa1-dea2c53f4a5c" />
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/feaa19e1-d915-4ee7-aada-71ac33a34879" />
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ff550dce-bc00-439b-8bbb-a8bc02c01f2f" />
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/a27d835d-65ee-4df8-bc59-ec14ebd9fdab" />
+<img width="1367" height="769" alt="image" src="https://github.com/user-attachments/assets/969879a5-b26a-4517-9b76-bf1361fec60c" />
+
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/20bab13a-ee23-48f0-bae3-75b1ad26a069" />
