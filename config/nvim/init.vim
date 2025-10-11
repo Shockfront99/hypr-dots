@@ -1,11 +1,11 @@
 set relativenumber
-colorscheme tokyonight-storm
+colorscheme tokyonight-moon
 lua << END
 require('lualine').setup {
   options = {
     icons_enabled = true,
-    theme = 'nightfly',
-    component_separators = { left = '', right = ''},
+    theme = 'material',
+    component_separators = { left = '|', right = '|'},
     section_separators = { left = '', right = ''},
     disabled_filetypes = {
       statusline = {},
@@ -22,12 +22,12 @@ require('lualine').setup {
     }
   },
   sections = {
-    lualine_a = {'mode'},
+    lualine_a = { { 'mode', separator = { left = '', right = '' }, right_padding = 2 } },   
     lualine_b = {'branch', 'diff', 'diagnostics'},
     lualine_c = {'filename'},
     lualine_x = {'encoding', 'fileformat', 'filetype'},
     lualine_y = {'progress'},
-    lualine_z = {'location'}
+    lualine_z = { { 'location', separator = { right = '', left = ''}, left_padding = 2 } }, 
   },
   inactive_sections = {
     lualine_a = {},
