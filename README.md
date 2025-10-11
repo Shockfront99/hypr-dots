@@ -45,7 +45,8 @@ Minimal yet powerful configuration for [Hyprland](https://github.com/hyprwm/Hypr
    eval "$(starship init zsh)"
    ```
 7. Set your GTK theme to Adwaita-dark
-<img width="1367" height="769" alt="image" src="https://github.com/user-attachments/assets/a903045b-8be7-4c6f-b297-6462791a1523" />
+<img width="1316" height="671" alt="image" src="https://github.com/user-attachments/assets/3589a321-3d65-4b0f-bf58-cd3195de9f96" />
+
 
 
 ## Screenshots
