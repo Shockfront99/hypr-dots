@@ -1,0 +1,24 @@
+(defwindow menu 
+  :monitor 0
+  :geometry (geometry :x "10px"
+                      :y "10px"
+                      :width 30 
+                      :height 50 
+                      :anchor "top left")
+  :stacking "fg"
+  :windowtype "dock"
+  :wm-ignore false
+  :wm-class "eww"
+    ;; powermenu
+    (box :orientation "horizontal" :halign "start" :class "powermenu" :valign "start" :hexpand false :vexpand false
+      (powermenu)))
+      
+
+
+
+(defwidget powermenu []
+  (box :orientation "horizontal" :spacing 10 :hexpand false :halign "center" 
+    (button :onclick "systemctl poweroff" :class "poweroff-btn" "⏻")
+    (button :onclick "systemctl reboot" :class "reboot-btn" "")
+    (button :onclick "hyprctl dispatch exit" :class "logout-btn" "󰍃")
+    (button :onclick "hyprctl dispatch exec hyprlock" :class "lock-btn" "")))
