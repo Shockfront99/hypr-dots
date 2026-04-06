@@ -50,4 +50,15 @@ My dotfiles for [Hyprland](https://github.com/hyprwm/Hyprland).
 
 
 ## Screenshots
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/bbcc5e72-7097-49f5-9631-7695a0b695cd" />
+
+<img width="1366" height="767" alt="image" src="https://github.com/user-attachments/assets/5abf64a2-d1ae-47ee-b765-7f81251f8a13" />
+
+<img width="1366" height="764" alt="image" src="https://github.com/user-attachments/assets/ed153976-fc09-4400-8070-afd0bfe59768" />
+<img width="1366" height="766" alt="image" src="https://github.com/user-attachments/assets/bbe5e2b0-68f8-49de-b33b-163f902ab987" />
+<img width="1360" height="768" alt="image" src="https://github.com/user-attachments/assets/de746adc-5605-4711-8429-9f8b07066f38" />
+
+
+
+
 
