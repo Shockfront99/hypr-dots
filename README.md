@@ -59,6 +59,7 @@ My dotfiles for [Hyprland](https://github.com/hyprwm/Hyprland).
 <img width="1366" height="764" alt="image" src="https://github.com/user-attachments/assets/ed153976-fc09-4400-8070-afd0bfe59768" />
 <img width="1366" height="766" alt="image" src="https://github.com/user-attachments/assets/bbe5e2b0-68f8-49de-b33b-163f902ab987" />
 <img width="1360" height="768" alt="image" src="https://github.com/user-attachments/assets/de746adc-5605-4711-8429-9f8b07066f38" />
+<img width="1366" height="768" alt="goodhyprlock" src="https://github.com/user-attachments/assets/7f7836b4-2006-4cf6-a6a9-418d0e514113" />
 
 
 
