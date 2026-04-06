@@ -31,7 +31,8 @@ My dotfiles for [Hyprland](https://github.com/hyprwm/Hyprland).
    cp -r ~/.config/hypr-dots/config/starship.toml ~/.config/
    ```
 5. Install [Lualine](https://github.com/nvim-lualine/lualine.nvim) and [e-ink](https://github.com/e-ink-colorscheme/e-ink.nvim).
-6. Configure your shell to use starship by 
+6. Use my bw.lualine theme - copy it into the themes directory of your lualine install location
+7. Configure your shell to use starship by 
    adding this to the end of ~/.bashrc:
    ```bash
    eval "$(starship init bash)"
@@ -46,6 +47,7 @@ My dotfiles for [Hyprland](https://github.com/hyprwm/Hyprland).
    ```
 7. Set your GTK theme to Adwaita-dark
 <img width="1316" height="671" alt="image" src="https://github.com/user-attachments/assets/3589a321-3d65-4b0f-bf58-cd3195de9f96" />
+8. A quick note - by default, hyprlock uses a profile picture I set. By changing the file in .config/hypr/hyprlock and naming the new file pfp.jpg, or simply changing the configuration accordingly, you can change it to an image or your preference
 
 
 
