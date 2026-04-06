@@ -45,9 +45,9 @@ My dotfiles for [Hyprland](https://github.com/hyprwm/Hyprland).
    ```bash
    eval "$(starship init zsh)"
    ```
-7. Set your GTK theme to Adwaita-dark
+8. Set your GTK theme to Adwaita-dark
 <img width="1316" height="671" alt="image" src="https://github.com/user-attachments/assets/3589a321-3d65-4b0f-bf58-cd3195de9f96" />
-8. A quick note - by default, hyprlock uses a profile picture I set. By changing the file in .config/hypr/hyprlock and naming the new file pfp.jpg, or simply changing the configuration accordingly, you can change it to an image or your preference
+9. A quick note - by default, hyprlock uses a profile picture I set. By changing the file in .config/hypr/hyprlock and naming the new file pfp.jpg, or simply changing the configuration accordingly, you can change it to an image or your preference
 
 
 
