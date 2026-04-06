@@ -1,39 +1,41 @@
 // -*- mode: jsonc -*-
 {
     // "layer": "top", // Waybar at top layer
-    "margin-top": 10,
+    "margin-top": 8,
     "margin-left": 8,
    "margin-right": 8,
     // "position": "bottom", // Waybar position (top|bottom|left|right)
-    "height": 40, // Waybar height (to be removed for auto height)
+    "height": 37, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
-    "spacing": 4, // Gaps between modules (4px)
+    "spacing": 2, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
 	"custom/power",
         "hyprland/mode",
         "hyprland/scratchpad",
         "custom/media",
-	"clock",
+        "clock",
 	"power-profiles-daemon"
     ],
     "modules-center": [
-        "hyprland/workspaces"
+	"hyprland/workspaces"
+
     ],
     "modules-right": [
-        "mpd",
-        "idle_inhibitor",
+        //"mpd",
+       // "idle_inhibitor",
+	"cpu",
+	"memory",
         "pulseaudio",
         "network",
-        "cpu",
 //        "memory",
 //        "temperature",
 //        "backlight",
         "keyboard-state",
         "sway/language",
         "battery",
-        "battery#bat2",
-        "tray",
+        "battery#bat2"
+        //"tray",
     ],
     // Modules configuration
      "hyprland/workspaces": {
@@ -112,15 +114,15 @@
         // "timezone": "America/New_York",
         "tooltip-format": " <big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format-alt": " {:%m/%d/%Y} ",
-	"format": " {:%H:%M}"
-	
+        "format": " {:%m/%d/%y  %H:%M}"	
     },
     "cpu": {
-        "format": "󰻠 {usage}%",
+        "format": " {usage}%",
         "tooltip": false
     },
     "memory": {
-        "format": "{}% "
+        "format": "󰾆 {used} GiB"
+
     },
     "temperature": {
         // "thermal-zone": 2,
@@ -143,7 +145,7 @@
         },
         "format": "{icon} {capacity}%",
         "format-full": "{capacity}% {icon}",
-        "format-charging": "{capacity}% ",
+        "format-charging": "{capacity}% ",
         "format-plugged": "{capacity}% ",
         "format-alt": "{time} {icon}",
         // "format-good": "", // An empty format will hide the module
@@ -166,7 +168,10 @@
     },
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "󰤨  {essid}", //({signalStrength}%)
+	"format-wifi": " {bandwidthDownBytes}  {bandwidthUpBytes} ",
+        "markup": true,
+
+//	"format-wifi": "󰤨 network",
         "format-ethernet": "{ipaddr}/{cidr} ",
         "tooltip-format": "{ifname} via {gwaddr} ",
         "format-linked": "{ifname} (No IP) ",
@@ -205,8 +210,9 @@
         // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
     },
     "custom/power": {
-        "format" : "󰣇 ",
+        "format" : "󰣇",
 		"tooltip": false,
-		"on-click": "wlogout -L 40 -R 40 -T 80 -B 80"
-	}
+		"on-click": "eww open menu"
+	},
+  }
 }
