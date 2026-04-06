@@ -6,8 +6,8 @@ My dotfiles for [Hyprland](https://github.com/hyprwm/Hyprland).
 
 1. Install dependencies
    ```bash
-   sudo pacman -S hyprland wofi waybar hyprlock hyprpaper hypridle kitty thunar pavucontrol starship neovim neofetch wireplumber power-profiles-daemon nwg-look gnome-themes-extra
-   yay -S wlogout
+   sudo pacman -S hyprland wofi waybar hyprlock hyprpaper hypridle kitty thunar pavucontrol starship neovim wireplumber power-profiles-daemon nwg-look gnome-themes-extra
+   yay -S neofetch eww
    ```
    You can use any AUR helper of your choice
    
