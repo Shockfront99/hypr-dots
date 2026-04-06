@@ -1,0 +1,39 @@
+* {
+  all: unset;
+  font-family: JetBrainsMono Nerd Font;
+}
+
+.poweroff-btn {
+  padding: 6px;
+  font-weight:bold;
+  color: #d0d0d0;
+}
+.reboot-btn {
+  padding: 6px;
+  font-weight:bold;
+  color: #d0d0d0;
+}
+.logout-btn {
+  padding: 6px;
+  font-weight:bold;
+  color: #d0d0d0;
+}
+.lock-btn {
+  padding: 6px;
+  font-weight:bold;
+  color: #d0d0d0;
+  margin-right: 6px
+}
+.poweroff-btn:hover,
+.reboot-btn:hover,
+.logout-btn:hover,
+.lock-btn:hover {
+  color: #fff;
+  transition: color 0.5s ease;
+}
+
+.powermenu {
+  background-color: rgba(15, 15, 15, 1);
+  border: 2px solid white;
+  border-radius: 15px;
+}
