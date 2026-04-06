@@ -1,10 +1,11 @@
 set relativenumber
-colorscheme tokyonight-moon
+colorscheme e-ink 
+highlight Normal guibg=transparent
 lua << END
 require('lualine').setup {
   options = {
     icons_enabled = true,
-    theme = 'material',
+    theme = 'bw',
     component_separators = { left = '|', right = '|'},
     section_separators = { left = '', right = ''},
     disabled_filetypes = {
