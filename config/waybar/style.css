@@ -51,24 +51,44 @@ button:hover {
 
 /* you can set a style on hover for any module like this */
 #workspaces {
-    background-color: rgba(15, 15, 15, 1);
-    border-radius: 15px;
-    margin-left: 12px;
-    padding: 4px 4px 4px 4px;
+  background: rgba(15, 15, 15, 1);
+  margin: 2px 1px 3px 1px;
+  padding: 0px 0px;
+  padding-right: 4px;
+  padding-left: 4px;
+  margin: 5px 5px;
+  border-radius: 15px;
+  border: 0px;
+  font-style: normal;
+  font-size: 1px;
+  color: #ffffff;
 }
+
 #workspaces button {
-    background-color: rgba(15, 15, 15, 1);
-    color: #37383d;
-    border-radius: 20px;
-    font-size: 15px;
+  padding: 1px 1px;
+  margin: 3px 3px;
+  border-radius: 15px;
+  border: 0px;
+  color: transparent; 
+  background-color: #151515;
+  min-width: 30px;
+  font-size: 1px;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
 }
 
 #workspaces button.active {
-    color: rgb(255, 255, 255);
-    background-color: #2596be;
-    border-radius: 15px;
-    padding: 0px 24px;
+  color: #fff;
+/*  background-color: #2596be;*/
+  background-color: #d0d0d0;
+  border-radius: 15px;
+  min-width: 50px;
+  font-size: 1px;
+  color: #000;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
 }
+
 #workspaces button.focused {
     background-color: #64727D;
     box-shadow: inset 0 -3px #ffffff;
@@ -100,6 +120,7 @@ button:hover {
 #scratchpad,
 #power-profiles-daemon,
 #custom-power,
+#custom-weather,
  #mpd {
     padding: 0 10px;
     color: #ffffff;
@@ -121,29 +142,29 @@ button:hover {
 }
 /*-----module groups----*/
 .modules-right {
-    background-color: transparent;
+    background-color: rgba(15, 15, 15, 1);
     border-radius: 15px;
 }
 .modules-center {
     background-color: transparent;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 .modules-left {
  /*  padding-left: 5px;*/
-   background-color: transparent;
+   background-color: rgba(15, 15, 15, 1); 
    border-radius: 15px;
 
 }
 #clock {
     background-color:rgba(15, 15, 15, 1);
-    color: #f4c4c4;
-    border-radius: 15px;
+    color: #d0d0d0; 
+    border-radius: 20px;
 }
 
 #battery {
     background-color:rgba(15, 15, 15, 1);
-    color: #c5cff5;
-    border-radius: 15px;
+    color: #d0d0d0;
+    border-radius: 20px;
     
 }
 
@@ -160,7 +181,7 @@ button:hover {
 
 /* Using steps() instead of linear as a timing function to limit cpu usage */
 #battery.critical:not(.charging) {
-    background-color: #f53c3c;
+    background-color: #d0d0d0;
     color: #ffffff;
     animation-name: blink;
     animation-duration: 0.5s;
@@ -172,21 +193,21 @@ button:hover {
 #power-profiles-daemon {
     padding-right: 15px;
     background-color: rgba(15, 15, 15, 1);
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 #power-profiles-daemon.performance {
     background-color: rgba(15, 15, 15, 1); 
-    color: #f53c3c;
+    color: #d0d0d0;
 }
 
 #power-profiles-daemon.balanced {
     background-color: rgba(15, 15, 15, 1);
-    color: #2980b9;
+    color: #d0d0d0;
 }
 
 #power-profiles-daemon.power-saver {
-    color: #2ecc71;
+    color: #d0d0d0;
     background-color:rgba(15, 15, 15, 1);
 }
 
@@ -196,69 +217,69 @@ label:focus {
 
 #cpu {
     background-color:rgba(15, 15, 15, 1);
-    color: #7dc4e4;
-    border-radius: 15px;
+    color: #d0d0d0;
+    border-radius: 20px;
 }
 
 #memory {
     background-color:rgba(15, 15, 15, 1);
-    color: #0b03fc;
-    border-radius: 15px;
+    color: #d0d0d0;
+    border-radius: 20px;
 }
 
 #disk {
     background-color:rgba(15, 15, 15, 1);
     color: #ffffff;
-    border-radius: 15px
+    border-radius: 20px
 }
 
 
 #backlight {
     background-color:rgba(15, 15, 15, 1);
     color: #ffffff;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 #backlight:hover {
     background-color: #ffffff;
     color:rgba(15, 15, 15, 1);
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 #network {
     background-color:rgba(15, 15, 15, 1);
-    color: #5603fc;
-    border-radius: 15px;
+    color: #d0d0d0;
+    border-radius: 20px;
 }  
 
 #network.disconnected {
     background-color:rgba(15, 15, 15, 1);
-    color: #5603fc;
+    color: #d0d0d0;
     border-radius: 5px;
 }
 
 #pulseaudio {
     background-color:rgba(15, 15, 15, 1);
-    color: #eed49f;
-    border-radius: 15px;
+    color: #d0d0d0;
+    border-radius: 20px;
 }
 
 #pulseaudio.muted {
     background-color:rgba(15, 15, 15, 1);
-    color: #eed49f;
-    border-radius: 15px;
+    color: #d0d0d0;
+    border-radius: 20px;
 } 
 
 #wireplumber {
     background-color:rgba(15, 15, 15, 1);
     color: #ffffff;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 #wireplumber.muted {
     background-color:rgba(15, 15, 15, 1);
     color: #ffffff;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 #custom-media {
@@ -270,7 +291,7 @@ label:focus {
 #custom-media.custom-spotify {
     background-color:rgba(15, 15, 15, 1);
     color: #ffffff;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 #custom-media.custom-vlc {
@@ -286,13 +307,13 @@ label:focus {
 #temperature.critical {
     background-color:rgba(15, 15, 15, 1);
     color: #fa0217;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 #tray {
     background-color:rgba(15, 15, 15, 1);
     color: #ffffff;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 #tray > .passive {
@@ -319,7 +340,7 @@ label:focus {
 #mpd {
     background-color:rgba(15, 15, 15, 1);
     color: #ffffff;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 #mpd.disconnected {
@@ -387,9 +408,9 @@ label:focus {
     background-color: #0069d4;
 }
 #custom-power {
-    color: #2596be;
+    color: #d0d0d0;
     font-size: 15px;
     background-color: rgba(15, 15, 15, 1);
-    border-radius: 15px;
+    border-radius: 20px;
     padding-right: 5px;
 }
